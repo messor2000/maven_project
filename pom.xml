@@ -18,8 +18,16 @@
     </properties>
   
     <modules>
-        <module>first_project</module>
         <module>second_project</module>
     </modules>
+
+    <profiles>
+        <profile>
+            <id>useful_module</id>
+            <modules>
+                <module>first_project</module>
+            </modules>
+        </profile>
+    </profiles>
   
 </project>
